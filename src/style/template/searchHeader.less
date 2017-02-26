@@ -1,0 +1,36 @@
+@import "../public";
+
+.search-header{
+  height: 0.5rem;
+  line-height: 0.5rem;
+  background-color: @headerBg;
+  font-size: 0.16rem;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  .cancel{
+    padding-right: 0.2rem;
+    color: @whiteColor;
+  }
+  input{
+    margin-top: 0.1rem;
+    border: none;
+    height: 0.3rem;
+    padding: 0 0.1rem;
+    width: 1.8rem;
+    border-radius: 0.14rem;
+    font-size: 0.14rem;
+  }
+  div{
+    padding-left: 0.2rem;
+    .search-img{
+      height: 0.2rem;
+      width: 0.2rem;
+      vertical-align: middle;
+    }
+    .search-text{
+      vertical-align: middle;
+      color: #999;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+<div class="position-company" ui-sref="company({id:data.id})">
+    <img ng-src="{{data.imageUrl}}" alt="" class="company-logo">
+    <div class="company-text">
+        <span ng-bind="data.companyName"></span>
+        <span ng-bind="data.industry+'/'+data.state+'/'+data.people">移动互联网/A轮/50-150人</span>
+    </div>
+</div>

@@ -1,0 +1,20 @@
+@import "../public";
+
+.search-tab{
+  font-size: 0.16rem;
+  height: 0.4rem;
+  display: flex;
+  li{
+    border-bottom: 0.02rem solid transparent;
+    width: 33%;
+    line-height: 0.4rem;
+    text-align: center;
+    background-color: @tabBg;
+    &:nth-child(2){
+      padding: 0 0.5%;
+    }
+    &.active{
+      border-bottom-color: @headerBg;
+    }
+  }
+}

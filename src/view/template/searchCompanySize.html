@@ -1,0 +1,8 @@
+<div class="search-company-size" ng-show="visible" ng-click="visible=false">
+    <div class="wrap">
+        <ul class="company-size-lists">
+            <li ng-repeat="item in list" ng-bind="item.name" ng-click="select(item)"></li>
+        </ul>
+        <p class="cancel" ng-click="visible=false">取消</p>
+    </div>
+</div>

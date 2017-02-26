@@ -1,0 +1,41 @@
+@import "../public";
+.search-company-size{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.5);
+  font-size: 0.2rem;
+  z-index: 99;
+  .wrap{
+    position: fixed;
+    left: 0.08rem;
+    right: 0.08rem;
+    bottom: 0.08rem;
+    z-index: 100;
+    color: #1063e5;
+    .company-size-lists{
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;//只有加上这个属性这里的圆角属性才生效
+      border-radius: 3px;
+      li{
+        line-height: 0.5rem;
+        background-color: @whiteColor;
+        text-align: center;
+        border-bottom: 1px solid @footerColor;
+        &:nth-last-child(1){
+          border-bottom: none;
+        }
+      }
+    }
+    .cancel{
+      margin-top: 0.1rem;
+      line-height: 0.5rem;
+      background-color: @whiteColor;
+      text-align: center;
+      border-radius: 3px;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+<div class="login-page">
+    <form name="form">
+        <input ng-model="user.phone" type="tel" placeholder="请输入手机号" class="tel"/>
+        <input ng-model="user.password" type="password" placeholder="请设置6位以上的密码" class="password"/>
+        <div class="message">
+            <input type="text" placeholder="短信验证码">
+            <button >获取验证码</button>
+        </div>
+        <button type="button" class="login-reg" ui-sref="login">登录</button>
+        <button type="button" class="login-log" ui-sref="login">注册</button>
+    </form>
+</div>

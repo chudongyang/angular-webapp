@@ -1,0 +1,29 @@
+@import "../public";
+.headerBar{
+  position: relative;
+  height: 0.4rem;
+  width: 100%;
+  background-color: @headerBg;
+  line-height: 0.4rem;
+  .icon{
+    position: absolute;
+    top: 0.12rem;
+    left: 0.2rem;
+    border-top: 0.02rem solid @whiteColor;
+    border-left: 0.02rem solid @whiteColor;
+    height: 0.13rem;
+    width: 0.13rem;
+    background-color: @headerBg;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  .title{
+    display: flex;
+    font-size: 0.2rem;
+    color: @whiteColor;
+    justify-content: center;
+  }
+}

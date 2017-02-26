@@ -1,0 +1,24 @@
+@import "../public";
+.position-info {
+  position: relative;
+  padding: 0.1rem 0.1rem;
+  font-size: 0.16rem;
+  background-color: @whiteColor;
+  margin-bottom: 0.02rem;
+  p {
+    line-height: 0.3rem;
+    .money {
+      color: @redColor;
+    }
+    span:nth-child(even) {
+      padding: 0.15rem;
+    }
+  }
+  .star {
+    position: absolute;
+    top: 0.4rem;
+    right: 0.24rem;
+    height: 0.32rem;
+    width: 0.33rem;
+  }
+}

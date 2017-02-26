@@ -1,0 +1,30 @@
+@import "../public";
+.lists{
+  li{
+    height: 1.05rem;
+    margin-bottom: 0.02rem;
+    background-color: @whiteColor;
+    img{
+      float: left;
+      margin: 0.05rem;
+      height: 0.95rem;
+      width: 0.95rem;
+    }
+    div{
+      float: left;
+      margin-left: 0.05rem;
+      .job{
+        font-size: 0.2rem;
+        height: 0.45rem;
+        line-height: 0.45rem;
+      }
+      p{
+        font-size: 0.16rem;
+        line-height: 0.3rem;
+        &.date{
+          color: @footerColor;
+        }
+      }
+    }
+  }
+}

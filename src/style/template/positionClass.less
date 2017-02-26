@@ -1,0 +1,51 @@
+@import "../public";
+
+.position-class{
+  margin-top: -0.03rem;
+  .position-box{
+    padding: 0.1rem;
+    font-size: 0.16rem;
+    background-color: @whiteColor;
+    h3{
+      font-size: 0.16rem;
+      line-height: 0.4rem;
+      margin-bottom: 0.1rem;
+    }
+    p{
+      display: inline-block;
+      margin-left: 0.1rem;
+      width: 0.8rem;
+      height: 0.34rem;
+      line-height: 0.34rem;
+      background-color: @btnColor;
+      text-align: center;
+      border-radius: 0.17rem;
+      &.active{
+        color: @whiteColor;
+        background-color: @headerBg;
+      }
+    }
+  }
+  .position-lists{
+    margin-top: 0.02rem;
+    padding: 0.1rem;
+    background-color: @whiteColor;
+    font-size: 0.16rem;
+    clear: both;
+    height: 0.8rem;
+    li{
+      div{
+        float: left;
+        p{
+          line-height: 0.4rem;
+        }
+      }
+      .money{
+        float: right;
+        margin-right: 0.1rem;
+        line-height: 0.8rem;
+        color: @redColor;
+      }
+    }
+  }
+}

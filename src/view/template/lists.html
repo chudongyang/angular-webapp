@@ -1,0 +1,10 @@
+<ul class="lists">
+    <li ng-repeat="item in data" ui-sref="position({id:item.id})">
+        <img ng-src="{{item.imageUrl}}" alt="">
+        <div>
+            <h3 class="job" ng-bind="item.job"></h3>
+            <p class="company" ng-bind="item.companyName +' ' + '[' +item.cityName + ']' + ' '+ item.industryName"></p>
+            <p class="date" ng-bind="item.date"></p>
+        </div>
+    </li>
+</ul>

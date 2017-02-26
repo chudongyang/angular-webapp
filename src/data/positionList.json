@@ -1,0 +1,198 @@
+[
+  {
+    "id": "p3",
+    "imageUrl": "/image/company-3.png",
+    "job": "销售",
+    "companyId": "c3",
+    "companyName": "动动",
+    "cityId": "c2",
+    "cityName": "上海",
+    "scaleId": "s4",
+    "scaleName": "200人以上",
+    "people": "200人以上",
+    "industryId": "i1",
+    "industryName": "互联网",
+    "industry": "移动互联网",
+    "state": "A轮",
+    "salaryId": "s2",
+    "salaryName": "6k-8k",
+    "experience": "1-3年",
+    "education": "专科",
+    "benefit": "成长空间大",
+    "description": "1.销售产品；...",
+    "date": "2016-06-01 11:05",
+    "positionClass": [
+      {
+        "id": "jishu",
+        "name": "销售",
+        "positionList": [
+          {
+            "id": "p1",
+            "name": "销售经理",
+            "createdDate": "2016-04-16 23:30",
+            "salary": "15k-25k"
+          }
+        ]
+      },
+      {
+        "id": "yunying",
+        "name": "运营",
+        "positionList": [
+          {
+            "id": "y1",
+            "name": "运营总监",
+            "createdDate": "2016-04-10 13:30",
+            "salary": "25k以上"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p4",
+    "imageUrl": "/image/company-2.png",
+    "job": "讲师",
+    "companyId": "c3",
+    "companyName": "洋葱数学",
+    "cityId": "c3",
+    "cityName": "广州",
+    "scaleId": "s4",
+    "scaleName": "30-80人",
+    "people": "30-80人",
+    "industryId": "i1",
+    "industryName": "互联网",
+    "industry": "移动互联网",
+    "state": "B轮",
+    "salaryId": "s6",
+    "salaryName": "15k-25k",
+    "experience": "5年以上",
+    "education": "本科",
+    "benefit": "公司氛围好",
+    "description": "1.制定运营可行的方案；...",
+    "date": "2016-05-30 15:05",
+    "positionClass": [
+      {
+        "id": "jishu",
+        "name": "讲师",
+        "positionList": [
+          {
+            "id": "p1",
+            "name": "高级讲师",
+            "createdDate": "2016-04-16 23:30",
+            "salary": "15k-25k"
+          }
+        ]
+      },
+      {
+        "id": "yunying",
+        "name": "运营",
+        "positionList": [
+          {
+            "id": "y1",
+            "name": "运营总监",
+            "createdDate": "2016-04-10 13:30",
+            "salary": "25k以上"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p1",
+    "imageUrl": "/image/company-4.png",
+    "job": "PHP工程师",
+    "companyId": "c1",
+    "companyName": "寻拍",
+    "cityId": "c1",
+    "cityName": "北京",
+    "scaleId": "s2",
+    "scaleName": "50-100人",
+    "people": "50-100人",
+    "industryId": "i1",
+    "industryName": "互联网",
+    "industry": "移动互联网",
+    "state": "C轮",
+    "salaryId": "s5",
+    "salaryName": "10k-15k",
+    "experience": "1-3年",
+    "education": "本科",
+    "benefit": "发展前景好",
+    "description": "1.负责公司前端页面开发；...",
+    "date": "2016-05-24 09:05",
+    "positionClass": [
+      {
+        "id": "jishu",
+        "name": "技术",
+        "positionList": [
+          {
+            "id": "p1",
+            "name": "PHP工程师",
+            "createdDate": "2016-04-16 23:30",
+            "salary": "15k-25k"
+          }
+        ]
+      },
+      {
+        "id": "yunying",
+        "name": "运营",
+        "positionList": [
+          {
+            "id": "y1",
+            "name": "运营总监",
+            "createdDate": "2016-04-10 13:30",
+            "salary": "25k以上"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p2",
+    "imageUrl": "/image/company-1.png",
+    "job": "java工程师",
+    "companyId": "c2",
+    "companyName": "火辣健身",
+    "cityId": "c1",
+    "cityName": "北京",
+    "scaleId": "s3",
+    "scaleName": "500人以上",
+    "people": "500人以上",
+    "industryId": "i1",
+    "industryName": "互联网",
+    "industry": "移动互联网",
+    "state": "D轮",
+    "salaryId": "s3",
+    "salaryName": "15k~20k",
+    "experience": "1-3年",
+    "education": "本科",
+    "benefit": "福利待遇好",
+    "description": "1.大型公司从事过相关工作；...",
+    "date": "2016-05-23 10:05",
+    "positionClass": [
+      {
+        "id": "jishu",
+        "name": "技术",
+        "positionList": [
+          {
+            "id": "p1",
+            "name": "java工程师",
+            "createdDate": "2016-04-16 23:30",
+            "salary": "15k-25k"
+          }
+        ]
+      },
+      {
+        "id": "yunying",
+        "name": "运营",
+        "positionList": [
+          {
+            "id": "y1",
+            "name": "运营总监",
+            "createdDate": "2016-04-10 13:30",
+            "salary": "25k以上"
+          }
+        ]
+      }
+    ]
+  }
+]

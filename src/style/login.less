@@ -1,0 +1,50 @@
+@import "public";
+
+
+.login-page{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../image/background.png") no-repeat;
+  background-size: 100% 100%;
+  form{
+    position: fixed;
+    top: 35%;
+    left: 10%;
+    width: 80%;
+    input{
+      position: absolute;
+      padding-left: 0.1rem;
+      height: 0.4rem;
+      width: 100%;
+      font-size: 0.16rem;
+      background:rgba(0,0,0,0.5);
+      box-sizing: border-box;
+      color: @whiteColor;
+      border: none;
+      &.password{
+        top: 0.42rem;
+      }
+    }
+    button{
+      position: absolute;
+      height: 0.4rem;
+      width: 100%;
+      font-size: 0.2rem;
+      border: 0.01rem solid @headerBg;
+      &.login-reg{
+        top: 1.5rem;
+        background-color: @headerBg;
+        color: @whiteColor;
+      }
+      &.login-log{
+        position: absolute;
+        top: 2rem;
+        background: rgba(203,233,228,0.5);
+        color: @headerBg;
+      }
+    }
+  }
+}

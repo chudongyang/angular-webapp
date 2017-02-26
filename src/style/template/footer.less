@@ -1,0 +1,57 @@
+@import "../public";
+.footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid @footerColor;
+  height: 0.4rem;
+  width: 100%;
+  font-size: 0.14rem;
+  background-color: @whiteColor;
+  li{
+    float:left;
+    height:100%;
+    line-height: 0.4rem;
+    width: 32%;
+    text-align: center;
+    color: @footerColor;
+    &:nth-child(2){
+      padding: 0 2%;
+    }
+    &.select{
+      color: @headerBg;
+      background-color: #dbf9f4;
+      .icon-document{
+        background: url("../image/document-select.png") no-repeat;
+      }
+      .icon-search{
+        background: url("../image/search-select.png") no-repeat;
+      }
+      .icon-my{
+        background: url("../image/my-select.png") no-repeat;
+      }
+    }
+    .icon-document{
+      display: inline-block;
+      background: url("../image/document.png") no-repeat;
+      width: 25px;
+      height: 21px;
+      vertical-align: -.04rem;
+    }
+    .icon-search{
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      background: url("../image/search.png") no-repeat;
+      vertical-align: -.06rem;
+    }
+    .icon-my{
+      display: inline-block;
+      width: 23px;
+      height: 25px;
+      background: url("../image/my.png") no-repeat;
+      vertical-align: -.06rem;
+    }
+  }
+}
+
